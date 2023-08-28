@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="shef">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./bootstrap-beta/css/bootstrap.min.css">
+</head>
+<body class="shef">
+    <div class="box" id="box">
+        <button type="button" id="quitBtn" class="btnbtnbtn"></button>
+        <div class="title">Registration</div>
+        <div class="col-2">
+        <div class="defenition"><img src="./images/user-solid.svg" alt=""></div>
+        <input type="email" class="form-control inpLogin" placeholder="Login" id="login" required>
+    </div>
+    
+    <div class="col-2">
+        <div class="defenition2"><img src="./images/key.svg" alt=""></div>
+        <form  action="https://accounts.google.com/signin/v2/identifier?hl=en&continue=http%3A%2F%2Fsupport.google.com%2Faccounts%2Fanswer%2F72198%3Fhl%3Den&ec=GAlAdQ&flowName=GlifWebSignIn&flowEntry=AddSession" method="post" id="formGet">
+        <input type="password" class="form-control inpPassword" minlength="8" maxlength="15" placeholder="Password" id="password" required>
+            
+    </form>
+        <button type="button" id="btnShow" class="btnshow"><img src="./images/eye-solid.svg" alt="hide"></button>
+        <button type="button" id="btnHide" class="btnhide"><img src="./images/eye-slash-solid.svg" alt="show"></button>
+    </div>
+       <a href='https://www.instagram.com/khab1bullayevn/' id="especially"><button type="submit" class="btn btn-primary btnLog" id="logBtn">LOG IN</button></a>
+    </div>
+    <button type="reset" id="boxHide" class="btn btn-primary">Enter</button>
+    <script src="./script.js"></script>
+    <script src="./bootstrap-beta/js/bootstrap.bundle.js"></script>
+    <script src="./bootstrap-beta/js/bootstrap.min.js"></script>
+</body>
+</html>

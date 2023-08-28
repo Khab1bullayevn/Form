@@ -1,0 +1,763 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main section */
+
+
+body{
+    
+    scroll-behavior: smooth;
+    transition: all 0.3s ease 0s;
+}
+.entering{
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    z-index: 100;
+    width: 100%;
+    height: 700px;
+    position: fixed;
+}
+.entering h1{
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.specialForImg{
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/for_Main.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+}
+header a{
+    display: inline-flex;
+    font-weight: 700;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 555;
+    margin-left: 30px;
+    transition: color .3s ease;
+    font-family: monospace;
+    margin-top: -30px;
+}
+header a:hover{
+    color: rgb(76, 221, 18);
+    transition: 0.5s;
+}
+header{
+    margin-top: 2.8%;
+    margin-left: 50%;
+    position: fixed;
+}
+.navbar{
+    position: fixed;
+    margin-top: -15px;
+    width: 100%;
+    height: 90px;
+    background-color: crimson;
+    z-index: 5;
+}
+.logo h1{
+    display: inline-block;
+}
+.logo{
+    display: inline-block;
+    position: fixed;
+}
+.logoText{
+    font-family: Arial;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 9%;
+}
+.crimsonSpan{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: rgb(76, 221, 18);
+    font-weight: 600;
+}
+.crimsonSpan2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(211, 2, 71);
+    font-weight: 600;
+}
+.middleItems{
+    float: left;
+    margin-left: 120px;
+    margin-top: -470px;
+}
+.middleItems .infoOwn{
+    color: #fff;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    font-weight: 600;
+}
+.insiderTitle{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: -35px;
+    margin-left: -3px;
+}
+.infoOwn2{
+    color: #fff;
+    font-family: 'Segoe UI';
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -25px;
+}
+.hereMeBtn{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 7px 33px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid crimson;
+    transition: all .3s ease;
+    font-family: monospace;
+}
+.hereMeBtn:hover{
+    background-color: transparent;
+    color: crimson;
+}
+
+
+ /* end // Main section // end  */
+
+
+
+/* About Me Section */
+
+
+.titlesAboutSection{
+    margin-left: 470px;
+}
+.titleSection{
+    color: #000;
+    font-family: monospace;
+    font-weight: 600;
+    padding-top: 100px;
+}
+.two{
+    margin-left: 45px;
+    font-size: 20px;
+}
+.forAboutImg img{
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.infoOwnTitle{
+    margin-top: -10px;
+    margin-right: 220px;
+    margin-left: 100px;
+}
+.titleOfInfo{
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 450px;
+    margin-top: -50px;
+    position: absolute;
+    z-index: -1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.someTextForAboutMe{
+    font-size: 20px;
+    width: 450px;
+    color: #000;
+    text-align: justify;
+    margin-left: 450px;
+    margin-top: 120px;
+}
+.btnTwo{
+    margin-top: -16px;
+    margin-left: 150px;
+    border: none;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+}
+.btnTwo i{
+    width: 100%;
+    height: 100%;
+}
+.like2{
+    position: absolute;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    margin-top: -16px;
+    display: none;
+}
+.modal{
+    margin-top: 190px;
+}
+.estimater{
+    margin-left: 580px;
+    font-size: 25px;
+    margin-top: -25px;
+    color: crimson;
+}
+.modalInfo{
+    font-size: 23px;
+    color: red;
+}
+.modal-title{
+    font-size: 30px;
+    color: rgb(189, 0, 0);
+}
+ /* end // About section // end  */
+
+
+ /* Services section */
+
+.servicesSection{
+    width: 100%;
+    height: 600px;
+    margin-top: 130px;
+    background-color: #111111;
+}
+.titlesOfServices {
+    margin-left: 550px;
+}
+.titlesOfServices span{
+    margin-left: 60px;
+    color: #DC143C;
+    font-size: 20px;
+}
+.titlesOfServices .secondTitle{
+    color: #fff;
+    padding-top: -20px;
+}
+
+.card{
+    margin-top: 70px;
+    margin-left: 80px;
+    padding: 25px;
+    width: 25%;
+    display: inline-flex;
+    background-color: #222222;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1;
+    transform: scale(1.05);
+
+    transition: all .3s ease;
+}
+.card:hover{
+    background-color: crimson;
+    transition: all .3s ease;
+
+}
+.iProvidedTitle{
+    font-size: 30px;
+    margin-left: -10px;
+    transition: all .3s ease;
+
+}
+.card2{
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 335px;
+    height: 150px;
+    transition: all .3s ease;
+
+}
+.card2:hover{
+    overflow: hidden;
+    transform: scale(1.05);
+    transition: all .3s ease;
+}
+.card-body{
+    margin-left: -10px;
+}
+
+ /* end // Services section // end  */
+
+
+/* Skills section */
+
+.titlesOfSkillsSection{
+    margin-left: 470px;
+}
+.infoMySkills{
+    padding-top: 50px;
+    float: left;
+}
+.infoMySkillsText{
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.titleInfoMySkills{
+    width: 500px;
+    text-align: justify;
+}
+.titlesOfSkillsSection span{
+    font-size: 20px;
+    margin-left: 35px;
+}
+.titleInfoMySkills h6{
+    font-size: 23px;
+    color: #000;
+}
+.readMore{
+    margin-top: 10px;
+    padding: 25px;
+    height: 40px;
+}
+.readMore h1{
+    font-size: 22px;
+    margin-top: -11px;
+    font-weight: 600;
+}
+.mySkillsOnSmth{
+    float: right;
+    margin-top: 100px;
+}
+.dadHtml{
+    width: 550px;
+    height: 5px;
+    background-color: #D3D3D3; 
+}
+.childHtml{
+    width: 80%;
+    height: 100%;
+    background-color: crimson;
+}
+.htmlSkill{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -25px;
+}
+.htmlSkillOnPercent{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 520px;
+}
+.dadCss{
+    width: 550px;
+    height: 5px;
+    background-color: #D3D3D3;
+    margin-top: 55px;
+}
+.childCss{
+    width: 65%;
+    height: 100%;
+    background-color: crimson;
+}
+.cssSkill{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -25px;
+}
+.cssSkillOnPercent{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 520px;
+}
+.dadJavaScript{
+    width: 550px;
+    height: 5px;
+    background-color: #D3D3D3;
+    margin-top: 55px;
+}
+.childJavaScript{
+    width: 55%;
+    height: 100%;
+    background-color: crimson;
+}
+.javaScriptSkill{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -25px;
+}
+.javaScriptSkillOnPercent{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 520px;
+}
+.dadPHP{
+    width: 550px;
+    height: 5px;
+    background-color: #D3D3D3;
+    margin-top: 55px;
+}
+.childPHP{
+    width: 30%;
+    height: 100%;
+    background-color: crimson;
+}
+.PHPSkill{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -25px;
+}
+.PHPSkillOnPercent{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 520px;
+}
+.dadEng{
+    width: 550px;
+    height: 5px;
+    background-color: #D3D3D3;
+    margin-top: 55px;
+}
+.childEng{
+    width: 70%;
+    height: 100%;
+    background-color: crimson;
+}
+.EngSkill{
+    font-size: 18px;
+    position: absolute;
+    margin-top: -25px;
+}
+.EngSkillOnPercent{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 520px;
+}
+ /* end // Skills section // end  */
+
+/* Team section */
+
+.withoutContainerSection{
+    width: 100%;
+    height: 1800px;
+    background-color: #111111;
+    margin-top: 500px;
+    transition: all 0.3s ease;
+
+}
+.titlesOfTeams{
+    margin-left: 475px;
+    transition: all 0.3s ease;
+
+}
+.titlesOfTeams h1{
+    color: #fff;
+    transition: all 0.3s ease;
+
+}
+.titlesOfTeams span{
+    margin-left: 18px;
+    font-size: 20px;
+    color: crimson;
+    transition: all 0.3s ease;
+
+}
+.teamCart{
+    width: 100%;
+    height: 300px;
+    background-color: #222222;
+    margin-top: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+
+.thatCartScale{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+
+}
+.circleBoxForImg{
+    width: 150px;
+    height: 150px;
+    border: 5px solid crimson;
+    border-radius: 50%;
+    margin-left: 470px;
+    margin-top: 30px;
+    position: absolute;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+.circleBoxForImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.teamCart2{
+    width: 100%;
+    height: 300px;
+    background-color: #222222;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.infosForNames{
+    position: absolute;
+    color: #fff;
+    margin-left: 350px;
+    margin-top: 200px;
+    transition: all 0.3s ease;
+
+}
+.nameOfInfo1{
+    margin-left: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+.thatCartScale:hover{
+    background-color: crimson;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.thatCartScale:hover .circleBoxForImg{
+    border-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.namesOf2{
+    margin-left: 40px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+.nameOfInfo2{
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+}
+.teamCart3{
+    width: 100%;
+    height: 300px;
+    background-color: #222222;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+.teamCart4{
+    width: 100%;
+    height: 300px;
+    background-color: #222222;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+.namesOf3{
+    margin-left: 50px;
+    transition: all 0.3s ease;
+
+}
+.nameOfInfo3{
+    margin-left: 65px;
+    transition: all 0.3s ease;
+
+}
+.namesOf4{
+    margin-left: 49px;
+    transition: all 0.3s ease;
+
+}
+.nameOfInfo4{
+    margin-left: 70px;
+    transition: all 0.3s ease;
+
+}
+.teamCart5{
+    width: 100%;
+    height: 300px;
+    background-color: #222222;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+
+}
+.namesOf5{
+    margin-left: -10px;
+    transition: all 0.3s ease;
+
+}
+.nameOfInfo5{
+    margin-left: 50px;
+    transition: all 0.3s ease;
+
+}
+
+ /* end // Team section // end  */
+
+
+/* Contact section */
+
+.titlesOfContactSection{
+    margin-left: 450px;
+    margin-top: 100px;
+}
+.titlesOfContactSection .fourthly{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.contactSectionTitle{
+    color: black;
+}
+.leftInfos{
+    float: left;
+}
+.leftInfos .getInfo{
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    float: left;
+}
+.infoMyLocation{
+    float: left;
+    margin-top: 80px;
+    width: 500px;
+    margin-left: -145px;
+    color: #000;
+    font-size: 18px;
+}
+.namePerson{  
+    padding-top: 50px;
+}
+.fivethly{
+    position: absolute;
+    margin-top: -30px;
+}
+.nameAdress{
+    margin-top: 30px;
+}
+.sixthly{
+    position: absolute;
+    margin-top: -10px;
+}
+.nameEmail{
+    margin-top: 30px;
+}
+.nameEmail a{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -42px;
+}
+.onlyTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+    margin-right: 390px;
+    margin-top: 40px;
+}
+input{
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}
+textarea{
+    outline: none;
+    border: 1px solid lightgrey;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+textarea::placeholder{
+    position: absolute;
+
+}
+form{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 80px;
+}
+.nameOfUser{
+    width: 250px;
+    margin: 10px;
+}
+.emailOfUser{
+    width: 250px;
+    margin: 10px;
+}
+.subjectOfUser{
+    width: 525px;
+    margin: 10px;
+}
+.feed-backs{
+    margin: 10px;
+}
+.sendMassage{
+    padding: 10px;
+    border: 2px solid crimson;
+    background-color: crimson;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 18px;
+}
+.sendMassage:hover{
+    background-color: transparent;
+    transition: all .3s ease-in-out;
+    color: crimson;
+}
+
+ /* end // Contact section // end  */
+
+
+/* Footer section */
+
+.uniqueFooter{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-top: 500px;
+    color: #fff;
+    background-color: #111111;
+    padding-left: 500px;
+    padding-top: 15px;
+}
+.uniqueFooter a{
+    color: #4CDD12;
+}
+.uniqueFooter a:hover{
+    color: crimson;
+    text-decoration-color: #4CDD12;
+}
+
+ /* end // Footer section // end  */
+
+
+
+
+
+
+

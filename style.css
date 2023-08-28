@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shef{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: linear-gradient(to left, #16222A , #3A6073);
+    width: 1366px;
+    height: 1552px;
+    overflow: hidden;
+    position: relative;
+}
+.box{
+    height: 70%;
+    width: 34%;
+    border-radius: 5px;
+    box-shadow: 2.5px 2.5px 0 0 rgba(8, 8, 8, 0.1);
+    margin-left: 32%;
+    margin-top: 7%;
+    overflow: hidden;
+}
+.title{
+    color: #fff;
+    font-size: 190%;
+    font-family: sans-serif;
+    font-weight: 550;
+    padding-left: 33%;
+    padding-top: 5%;
+    display: block;
+}
+input.inpLogin{
+    width: 400%;
+    padding: 13.5%;
+    margin-left: 65%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border: 0;
+    padding-left: 20%;
+}
+.box{
+    border-top-right-radius: 1%;
+    border-bottom-right-radius: 1%;
+    background: #1a303f;
+}
+input.inpPassword{
+    width: 400%;
+    padding: 13.5%;
+    margin-left: 67%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border: 0;
+    padding-left: 20%;
+    overflow: hidden;
+}
+.col-2 .defenition{
+    display: inline-block;
+    width: 65%; 
+    height: 43%;
+    position: absolute; 
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: #16222A;
+}
+.col-2 .defenition img{
+    width: 45%;
+    height: 45%;
+    margin-left: 28%;
+    margin-top: 27%;
+}
+.col-2 .defenition2{
+    display: inline-block;
+    width: 65%; 
+    height: 44%;
+    position: absolute; 
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    background-color: #16222A;
+    margin-left: 3%;
+}
+.col-2 .defenition2 img{
+    width: 60%;
+    height: 65%;
+    margin-left: 25%;
+    margin-top: 18%;
+}
+.col-2{
+    position: relative;
+    margin-left: 12%;
+    padding-top: 13%;
+}
+.box .btnLog{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background: linear-gradient(to left , #0c0c3d , #0818463b);
+    border: none;
+    color: #fff;
+    transition: all 0.7s;
+    font-weight: 600;
+    font-family: monospace;
+}
+.box a{
+    margin-top: 15%;
+    text-decoration: none;
+   display: inline-block;
+   width: 55%;
+   height: 5%;
+   margin-left: 26%;
+}
+.box .form-control{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.box .form-control::placeholder{
+    color: #17242C;
+    opacity: 0.8;
+    font-weight: 600;
+    font-family: monospace;
+}
+.box input:focus::placeholder{
+    font-family: monospace;
+    color: rgb(255, 0, 200);
+}
+.box  .form-control:focus{
+    font-family: monospace;
+    font-weight: 530;
+    border: none;
+}
+.box input{
+    font-family: monospace;
+    font-weight: 530;
+}
+.btnshow{
+    position: absolute;
+    width: 30%;
+    border-radius: 50%;
+    height: 30%;
+    margin-left: 420%;
+    margin-top: -50%;
+    background-color: #fff;
+    padding-right: -10%;
+    border: none;
+}
+.btnshow img{
+    margin-left: 25%;
+}
+#boxHide{
+    width: 5%;
+    height: 10%;
+    margin-left: 45%;
+    margin-top: 24%;
+    overflow: hidden;
+    display: none;
+    border-radius: 100px;
+    background: linear-gradient(to bottom ,#081846f5, #0c0c3d);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-family: monospace;
+
+}
+#boxHide:hover{
+    background: linear-gradient(to bottom ,#001141f5, #181868);
+    transition: all 1.4s;
+}
+#quitBtn{
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+    margin-left: 96%;
+    background-color: #d60000;
+    border: none;
+}
+#btnHide{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    margin-left: 421%;
+    margin-top: -50%;
+    padding-right: -10%;
+    background-color: #fff;
+    border: none;
+    overflow: hidden;
+    display: none;
+}
+#btnHide img{
+    margin-left: 20%;
+}
+/* media ne zabivay */
+/* @media (min-width: 0px) and (max-width: 576px){
+    .box{
+        width: 70%;
+        height: 60%;
+        margin-left: 16%;
+        margin-top: 40%;
+    }
+    .col-2 .inpLogin{
+        width: 400%;
+        height: -400%;
+        margin-left: 20%;
+    }
+    .defenition{
+        margin-left: 55%;
+    }
+    .col-2 .inpPassword{
+        width: 400%;
+        height: -400%;
+        margin-left: 20%;
+    }
+    .defenition2{
+        margin-left: -60%;
+        
+    }
+    .col-2{
+        margin-left: 20%;
+    }
+    .btnLog{
+        margin-left: -15%;
+        width: 500%;
+        height: 100%;
+    }
+    .btnshow{
+        margin-left: 360%;
+    }
+} */
+/* @media (min-width: 576px){
+    .box{
+        width: 70%;
+        height: 60%;
+        margin-left: 16%;
+        margin-top: 40%;
+    }
+    .col-2 .inpLogin{
+        width: 400%;
+        height: -400%;
+        margin-left: 20%;
+    }
+    .defenition{
+        margin-left: -55%;
+    }
+    .col-2 .inpPassword{
+        width: 400%;
+        height: -400%;
+        margin-left: 20%;
+    }
+    .defenition2{
+        margin-left: -55%;
+        
+    }
+    .col-2{
+        margin-left: 20%;
+    }
+    .btnLog{
+        margin-left: -15%;
+        width: 500%;
+        height: 100%;
+    }
+    .btnshow{
+        margin-left: 360%;
+    }
+}
+@media (min-width: 768px){
+    .box{
+        width: 70%;
+        height: 60%;
+        margin-left: 16%;
+        margin-top: 40%;
+    }
+    .col-2 .inpLogin{
+        width: 400%;
+        height: -400%;
+        margin-left: 20%;
+    }
+    .defenition{
+        margin-left: -55%;
+    }
+    .col-2 .inpPassword{
+        width: 400%;
+        height: -400%;
+        margin-left: 20%;
+    }
+    .defenition2{
+        margin-left: -55%;
+        
+    }
+    .col-2{
+        margin-left: 20%;
+    }
+    .btnLog{
+        margin-left: -15%;
+        width: 500%;
+        height: 100%;
+    }
+    .btnshow{
+        margin-left: 360%;
+    }
+} */
+/* media ne zabivay */
+
+
+
+
+
+
+
+
+
+
+
